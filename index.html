@@ -3,121 +3,311 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Krishnamoorthi G - AI/ML Student & Developer. Portfolio showcasing projects in Artificial Intelligence, Machine Learning, and Data Science.">
+    <meta name="description" content="Krishnamoorthi G — AI/ML Engineering Student & Developer. Portfolio showcasing projects in Artificial Intelligence, Machine Learning, and Data Science.">
     <meta name="keywords" content="Krishnamoorthi G, AI, Machine Learning, Data Science, Portfolio, Python, TensorFlow">
     <meta name="author" content="Krishnamoorthi G">
+    <meta property="og:title" content="Krishnamoorthi G | Portfolio">
+    <meta property="og:description" content="AI/ML Engineering Student & Developer — projects in Artificial Intelligence, Machine Learning, and Data Science.">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#4f46e5">
     <title>Krishnamoorthi G | Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <header>
-        <div class="container header-content">
-            <h1>Krishnamoorthi G</h1>
-            <p class="contact-info">
-                +91 8015818811 | <a href="mailto:krishnamoorthitech2224@gmail.com">krishnamoorthitech2224@gmail.com</a> | Salem
-            </p>
-            <p class="social-links">
-                <a href="https://linkedin.com/in/gkrishna247" target="_blank">LinkedIn</a> | 
-                <a href="https://github.com/gkrishna247" target="_blank">GitHub</a>
-            </p>
+    <!-- Header / Navigation -->
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="Krishnamoorthi G — Home">KG</a>
+            <nav role="navigation" aria-label="Main navigation">
+                <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                    <span class="nav-toggle-bar"></span>
+                </button>
+                <ul id="nav-menu" class="nav-list">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul class="nav-list container">
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
-    <main class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>I am a highly motivated undergraduate student pursuing Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. Fascinated by the intricate complexities of AI, ML, Data Science, and Deep Learning, I am dedicated to deepening my understanding in these areas. My goal is to leverage my technical skills to tackle practical, real-world challenges and contribute meaningfully through the development of impactful AI/ML solutions.</p>
+
+    <!-- Hero -->
+    <section class="hero" aria-label="Introduction">
+        <div class="container">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Krishnamoorthi G</h1>
+            <p class="hero-tagline">AI &amp; ML Engineering Student &bull; Developer</p>
+            <p class="hero-location">Salem, Tamil Nadu, India</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+            <div class="hero-links">
+                <a href="https://github.com/gkrishna247" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+                <a href="https://linkedin.com/in/gkrishna247" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </a>
+                <a href="mailto:krishnamoorthitech2224@gmail.com" aria-label="Send email">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>I am a highly motivated undergraduate student pursuing Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning. Fascinated by the intricate complexities of AI, ML, Data Science, and Deep Learning, I am dedicated to deepening my understanding in these areas.</p>
+                    <p>My goal is to leverage my technical skills to tackle practical, real-world challenges and contribute meaningfully through the development of impactful AI/ML solutions.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="education">
-            <h2>Education</h2>
-            <ul>
-                <li><strong>BE - Artificial Intelligence and Machine Learning</strong> | Expected Graduation: 2026 | CGPA: 8.11<br>
-                    K.S. Rangasamy College of Technology, Tiruchengode, Tamil Nadu, India
-                </li>
-                <li><strong>Class XII (HSC)</strong> | State Board | Year Completed: 2022 | Percentage: 77.5%<br>
-                    Government Higher Secondary School, Alagappampalayam Pudur, Salem
-                </li>
-                <li><strong>Class X (SSLC)</strong> | State Board | Year Completed: 2020 | Percentage: 81.8%<br>
-                    Government Higher Secondary School, Alagappampalayam Pudur, Salem
-                </li>
-            </ul>
+        <!-- Education -->
+        <section id="education" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>BE — Artificial Intelligence and Machine Learning</h3>
+                            <p class="timeline-meta">K.S. Rangasamy College of Technology, Tiruchengode, Tamil Nadu</p>
+                            <div class="timeline-details">
+                                <span class="badge">Expected 2026</span>
+                                <span class="badge badge-accent">CGPA: 8.11</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Class XII (HSC)</h3>
+                            <p class="timeline-meta">Government Higher Secondary School, Alagappampalayam Pudur, Salem</p>
+                            <div class="timeline-details">
+                                <span class="badge">2022</span>
+                                <span class="badge badge-accent">77.5%</span>
+                                <span class="badge">State Board</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Class X (SSLC)</h3>
+                            <p class="timeline-meta">Government Higher Secondary School, Alagappampalayam Pudur, Salem</p>
+                            <div class="timeline-details">
+                                <span class="badge">2020</span>
+                                <span class="badge badge-accent">81.8%</span>
+                                <span class="badge">State Board</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li>Python, Java, C</li>
-            </ul>
-            <h3>Data Science & Machine Learning</h3>
-            <ul>
-                <li>TensorFlow, Keras, Scikit-learn, Pandas, Numpy</li>
-                <li>Platforms: Microsoft Fabric</li>
-            </ul>
-            <h3>Data Visualization & BI</h3>
-            <ul>
-                <li>Matplotlib, Seaborn, Tableau, Power BI</li>
-            </ul>
-            <h3>Cloud & DevOps</h3>
-            <ul>
-                <li>Microsoft Azure, AWS, GCP</li>
-                <li>Git, GitHub, Docker, VS Code</li>
-            </ul>
-            <h3>Robotic Process Automation (RPA)</h3>
-            <ul>
-                <li>UiPath Studio</li>
-            </ul>
-            <h3>Languages</h3>
-            <ul>
-                <li>Tamil (Native), English (Fluent)</li>
-            </ul>
+        <!-- Skills -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Science &amp; ML</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">Scikit-learn</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">NumPy</span>
+                            <span class="skill-tag">Microsoft Fabric</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Data Visualization &amp; BI</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Seaborn</span>
+                            <span class="skill-tag">Tableau</span>
+                            <span class="skill-tag">Power BI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Cloud &amp; DevOps</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Microsoft Azure</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VS Code</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>RPA</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">UiPath Studio</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Tamil (Native)</span>
+                            <span class="skill-tag">English (Fluent)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <h3>AgriCast: Predicting Agricultural Commodity Prices for a Sustainable Future</h3>
-            <ul>
-                <li>Developed AgriCast, an AI solution leveraging LSTM networks in Python to forecast agricultural commodity prices, promoting informed decision-making for sustainable agriculture (SDG 12).</li>
-                <li>Improved price prediction accuracy compared to traditional methods, empowering farmers, traders, and consumers with enhanced market insights and contributing to potential income increase and food security.</li>
-                <li>Tech Stack: Python, TensorFlow/Keras (LSTM), Pandas, Matplotlib, Flask, Git, GitHub.</li>
-                <li>GitHub Repository: <a href="https://github.com/gkrishna247/AgriCast" target="_blank">github.com/gkrishna247/AgriCast</a></li>
-            </ul>
+        <!-- Projects -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <svg class="project-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z"/></svg>
+                            <a href="https://github.com/gkrishna247/AgriCast" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="View AgriCast on GitHub">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                            </a>
+                        </div>
+                        <h3 class="project-title">AgriCast</h3>
+                        <p class="project-subtitle">Predicting Agricultural Commodity Prices for a Sustainable Future</p>
+                        <p class="project-description">AI solution leveraging LSTM networks to forecast agricultural commodity prices, promoting informed decision-making for sustainable agriculture (SDG 12). Improved price prediction accuracy compared to traditional methods, empowering farmers, traders, and consumers with enhanced market insights.</p>
+                        <div class="project-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">Pandas</span>
+                            <span class="skill-tag">Matplotlib</span>
+                            <span class="skill-tag">Flask</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
         </section>
 
-        <section id="certifications">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Microsoft Certified: Fabric Data Engineer Associate - Microsoft - June 2025</li>
-                <li>Practical Machine Learning Certification - GUVI (Google for Education Partner) - October 2024</li>
-                <li>Elite Certification in Demystifying Networking - NPTEL (IIT Madras) - 2024</li>
-                <li>Elite Certification in Python for Data Science - NPTEL (IIT Madras) - 2023</li>
-                <li>Certification in Problem Solving Through Programming in C - NPTEL (IIT Madras) - 2023</li>
-            </ul>
+        <!-- Certifications -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-icon" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Microsoft Certified: Fabric Data Engineer Associate</h3>
+                            <p>Microsoft &mdash; June 2025</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Practical Machine Learning Certification</h3>
+                            <p>GUVI (Google for Education Partner) &mdash; October 2024</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Elite Certification in Demystifying Networking</h3>
+                            <p>NPTEL (IIT Madras) &mdash; 2024</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Elite Certification in Python for Data Science</h3>
+                            <p>NPTEL (IIT Madras) &mdash; 2023</p>
+                        </div>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-icon" aria-hidden="true">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Problem Solving Through Programming in C</h3>
+                            <p>NPTEL (IIT Madras) &mdash; 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="achievements">
-            <h2>Achievements</h2>
-            <ul>
-                <li>NAVONMESH 2.0 National Hackathon Participant - Selected as one of the top 30 teams nationally from a wide pool of applicants.</li>
-            </ul>
+        <!-- Achievements -->
+        <section id="achievements" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Achievements</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        </div>
+                        <h3>NAVONMESH 2.0 National Hackathon</h3>
+                        <p>Selected as one of the top 30 teams nationally from a wide pool of applicants.</p>
+                    </div>
+                </div>
+            </div>
         </section>
+
     </main>
 
-    <footer id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Connect with me: <a href="https://linkedin.com/in/gkrishna247" target="_blank">LinkedIn</a> | <a href="https://github.com/gkrishna247" target="_blank">GitHub</a></p>
+    <!-- Contact / Footer -->
+    <footer id="contact" role="contentinfo">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="footer-text">I'm always open to discussing AI/ML projects, collaboration opportunities, or just connecting.</p>
+            <div class="footer-links">
+                <a href="mailto:krishnamoorthitech2224@gmail.com" class="btn btn-primary">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4l-10 8L2 4"/></svg>
+                    Email Me
+                </a>
+                <a href="https://linkedin.com/in/gkrishna247" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/gkrishna247" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    GitHub
+                </a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Krishnamoorthi G. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
