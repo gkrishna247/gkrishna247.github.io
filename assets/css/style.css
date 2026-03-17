@@ -200,6 +200,8 @@ section p {
 section ul {
     margin-left: 0;
     margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
 }
 
 section li {
@@ -248,6 +250,25 @@ section li:hover {
     font-size: 1.5rem;
     color: #667eea;
     margin: 20px 0 15px 0;
+}
+
+.project-card {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: linear-gradient(135deg, #f8f9ff 0%, #eef1ff 100%);
+    border-radius: 16px;
+    border: 1px solid #e1e6ff;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.08);
+}
+
+.project-card p {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.project-meta {
+    color: #5a67d8;
+    font-weight: 600;
 }
 
 #projects a {
