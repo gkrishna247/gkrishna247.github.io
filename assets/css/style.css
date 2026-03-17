@@ -175,6 +175,20 @@ section:last-child {
     }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    section {
+        animation: none;
+    }
+
+    main h2:after {
+        transition: none;
+    }
+}
+
 section p {
     font-size: 1.1rem;
     margin-left: 0;
